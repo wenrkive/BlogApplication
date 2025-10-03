@@ -1,5 +1,5 @@
 {
-      "name": "blog-application",
+      "name": "blog",
       "version": "0.1.0",
       "private": true,
       "homepage": "https://wenrkive.github.io/Blog",
@@ -61,7 +61,7 @@
   "build": "vite build",
   "preview": "vite preview",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist -a -m \"Deploy BlogApplication\""
+  "deploy": "gh-pages -d dist -a -m \"Deploy Blog\""
   }
 
 

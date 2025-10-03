@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
   import path from 'path';
 
   export default defineConfig({
-    base: '/BlogApplication/',
+    base: '/Blog/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
