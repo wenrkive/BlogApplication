@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
   import path from 'path';
 
   export default defineConfig({
-    base: "/NOME_DO_REPOSITORIO/",
+    base: "/BlogApplication/",
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
@@ -51,7 +51,7 @@ import { defineConfig } from 'vite';
     },
     build: {
       target: 'esnext',
-      outDir: 'build',
+      outDir: 'dist',
     },
     server: {
       port: 3000,
